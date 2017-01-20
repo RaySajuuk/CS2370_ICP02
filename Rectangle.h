@@ -1,6 +1,8 @@
-//
-// Created by Boran Li on 1/18/17.
-//
+/*
+ * CS2370 ICP02
+ * @collaboration: Boran Li(em6829), Erick Ramos(rk4863), Osvaldo Arellano(yx8623)
+ * Date: Jan/18/2017
+ */
 
 #ifndef CS2370_ICP02_RECTANGLE_H
 #define CS2370_ICP02_RECTANGLE_H
