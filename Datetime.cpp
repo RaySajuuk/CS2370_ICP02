@@ -9,9 +9,6 @@
 
 using namespace std;
 
-/*Datetime::Datetime() : Date(), Time() {
-}*/
-
 Datetime::Datetime() {}
 
 Datetime::Datetime(int mon, int day, int year, int hour, int min, int sec) : Date(mon, day, year),
