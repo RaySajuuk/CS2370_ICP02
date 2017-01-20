@@ -10,15 +10,11 @@ class BasicShape {
 private:
     double area;
 public:
-    double getArea() {
-        return area;
-    }
+    double getArea();
 
     virtual void calcArea() = 0;
 
-    void setArea(double a) {
-        area = a;
-    }
+    void setArea(double a);
 };
 
 

@@ -4,6 +4,7 @@
 
 #ifndef CS2370_ICP02_CIRCLE_H
 #define CS2370_ICP02_CIRCLE_H
+
 #include "BasicShape.h"
 
 
@@ -13,25 +14,15 @@ private:
     long centery;
     double radius;
 public:
-    Circle(long x, long y, double rd) {
-        centerx = x;
-        centery = y;
-        radius = rd;
-        calcArea();
-    }
-    long getCenterx() {
-        return centerx;
-    }
-    long getCentery() {
-        return centery;
-    }
-    void calcArea() {
-        double temp = 3.14159 * radius * radius;
-        BasicShape::setArea(temp);
-    }
-    double getArea() {
-        return BasicShape::getArea();
-    }
+    Circle(long x, long y, double rd);
+
+    long getCenterx();
+
+    long getCentery();
+
+    void calcArea();
+
+    double getArea();
 };
 
 

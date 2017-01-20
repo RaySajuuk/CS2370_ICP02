@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Circle.h"
 #include "Rectangle.h"
-#include "DATETIME.H"
+#include "Datetime.h"
 
 using namespace std;
 
@@ -27,10 +27,10 @@ int main() {
     Rectangle r(width, length);
     cout << "the area of the rectangle is : " << r.getArea() << endl;
 
-    DateTime emptyDay;
+    Datetime emptyDay;
     emptyDay.showDateTime();
 
-    DateTime pastDay(13, 4, 1990, 5, 32, 27);
+    Datetime pastDay(13, 4, 1990, 5, 32, 27);
     pastDay.showDateTime();
 
     return 0;

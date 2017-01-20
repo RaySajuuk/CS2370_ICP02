@@ -6,15 +6,18 @@
 #define CS2370_ICP02_DATETIME_H
 
 #include <iostream>
-#include "DATE.h"
-#include "TIME.h"
+#include "Date.h"
+#include "Time.h"
+
 using namespace std;
 
-class DateTime : public DATE, public TIME {
+class Datetime : public Date, public Time {
 public:
-    DateTime();
-    DateTime(int, int, int, int, int, int);
-    void showDateTime()const;
+    Datetime();
+
+    Datetime(int, int, int, int, int, int);
+
+    void showDateTime() const;
 };
 
 
